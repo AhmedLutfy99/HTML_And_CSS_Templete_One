@@ -30,6 +30,15 @@ ul {
   list-style: none;
 }
 
+.scroller {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 5px;
+  background-color: var(--main-color);
+  z-index: 9999999;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
